@@ -1,0 +1,24 @@
+# Site settings
+title: Harlequin Dachshunds
+description: Miniature Longhaired Dachshunds – breeders in South Jersey
+email: DoxyLadyNJ@gmail.com
+url: https://www.harlequindachshunds.com
+baseurl: ""
+
+# Build settings (no need to change these)
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      body_class: single single-post
+exclude:
+  - README.md
+  - HOW-TO-UPDATE.md

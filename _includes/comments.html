@@ -1,0 +1,21 @@
+{% assign key = page.permalink | remove: "/" %}
+{% assign comments = site.data.comments[key] %}
+{% if comments %}
+<div id="comments" class="comments-area">
+	<h2 class="comments-title">{{ comments | size }} thoughts on &ldquo;<span>{{ page.title }}</span>&rdquo;</h2>
+	<ol class="comment-list">
+	{% for c in comments %}
+		<li class="comment{% if c.reply %} depth-2 reply-comment{% else %} depth-1{% endif %}{% if c.owner %} bypostauthor{% endif %}">
+			<article class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard"><b class="fn">{{ c.author }}</b> <span class="says">says:</span></div>
+					<div class="comment-metadata"><time datetime="{{ c.date }}">{{ c.date | date: "%B %-d, %Y" }}</time></div>
+				</footer>
+				<div class="comment-content">{{ c.text | markdownify }}</div>
+			</article>
+		</li>
+	{% endfor %}
+	</ol><!-- .comment-list -->
+	<p class="no-comments">Comments are closed. We'd love to hear from you by <a href="mailto:{{ site.email }}">email</a>!</p>
+</div><!-- #comments -->
+{% endif %}

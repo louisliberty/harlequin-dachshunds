@@ -1,0 +1,9 @@
+/* Small additions to the original theme (kept separate so style.css stays original). */
+img { max-width: 100%; height: auto; }
+.wp-caption { max-width: 100% !important; }
+.entry-content iframe { max-width: 100%; }
+.comment-list .reply-comment { margin-left: 40px; }
+.comment-list, .comment-list li { list-style: none; }
+.no-comments { font-style: italic; }
+.rl-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: flex; align-items: center; justify-content: center; z-index: 9999; cursor: zoom-out; padding: 16px; }
+.rl-overlay img { max-height: 92vh; max-width: 100%; border: 6px solid #fff; border-radius: 4px; }

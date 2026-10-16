@@ -1,0 +1,10 @@
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="footnav">
+			<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu">
+			{% for item in site.data.navigation %}<li class="menu-item{% if page.url == item.url %} current-menu-item{% endif %}"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+			{% endfor %}</ul></div>
+		</div><!-- .site-info -->
+		<div class="site-info">
+			&copy; {{ site.time | date: "%Y" }}&nbsp;{{ site.title }}
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
