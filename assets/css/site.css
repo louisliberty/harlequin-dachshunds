@@ -94,14 +94,7 @@ body { background:url(../images/theme/purple-sq.png) repeat; }
 #page { -webkit-box-shadow: 0 8px 12px 0px #2E002E; -moz-box-shadow: 0 8px 12px 0px #2E002E; box-shadow: 0 8px 12px 0px #2E002E; }
 .site-header { border-bottom: 1px solid #eee; margin-bottom: 20px; }
 .site-branding img { margin: 0 auto; width: 1000px; display: block; }
-footer#colophon { background-color:#000038; height: 80px; }
-ul#menu-footer-menu { list-style-type: none; padding: 0; margin: 0; text-align: center; }
-ul#menu-footer-menu a { width:8em; text-decoration:none; color:white; padding:0.2em 0.6em; font-size: smaller; display: inline-block; }
-ul#menu-footer-menu a:hover { color:#ff3300; }
-ul#menu-footer-menu li { display:inline; }
-ul#menu-footer-menu li:after { color:#fff; content: "|"; padding-left: 0; }
-ul#menu-footer-menu li:last-child:after { content: ""; padding-left: 0; }
-footer#colophon .site-info { clear: both; margin: 0 auto; text-align: center; padding-top: 20px; }
+footer#colophon { background-color:#000038; }
 h1.page-title, .page article h1.entry-title, .single article h1.entry-title { color:#00007D; font-size: 24px; text-align: center; font-weight: bold; }
 .page h2 { color:#00007D; font-size: 18px; text-align: center; font-weight: bold; margin-top: 10px; }
 .entry-header, .entry-content, .entry-footer { padding: 0 20px; }
@@ -205,8 +198,6 @@ img { max-width: 100%; height: auto; }
 @media (max-width: 700px) {
 .blog-cards { grid-template-columns: 1fr; }
 }
-footer#colophon { height: auto; padding-bottom: 16px; }
-footer#colophon .site-info { color: #d6d2ee; font-size: 14px; padding-top: 12px; }
 #secondary h2.widget-title { font-size: 12px; font-weight: 400; color: #fff; text-align: start; margin: 0; }
 .category article h2.entry-title { text-align: center; color: #03C; font-size: 18px; }
 .category article h2.entry-title a { text-decoration: none; }
@@ -217,3 +208,19 @@ footer#colophon .site-info { color: #d6d2ee; font-size: 14px; padding-top: 12px;
 /* Paragraphs that the old WordPress editor had coded as headings: same look as before, correct tag */
 .entry-content p.as-heading { margin-bottom: 0; }
 .entry-content p.as-h2-page { font-size: 18px; font-weight: 700; line-height: 27px; margin: 10px 0 0; color: #00007D; text-align: center; }
+
+/* Footer: four columns on computers, stacked on phones */
+footer#colophon { color: #d6d2ee; font-size: 14px; line-height: 1.6; padding: 32px 24px 0; }
+.footer-columns { display: grid; grid-template-columns: 1.4fr 1fr 1.3fr 1.2fr; gap: 28px; max-width: 1100px; margin: 0 auto; }
+footer#colophon .footer-heading { color: #fff; font-size: 15px; line-height: 1.4; font-weight: bold; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 2px solid #5a5ad0; text-align: left; }
+.footer-col p { margin: 0 0 10px; }
+.footer-col ul { list-style: none; margin: 0; padding: 0; }
+.footer-col li { margin: 0 0 6px; }
+footer#colophon a, footer#colophon a:visited { color: #fff; text-decoration: none; }
+footer#colophon a:hover, footer#colophon a:focus { color: #ff9a7a; text-decoration: underline; }
+footer#colophon a[aria-current="page"] { text-decoration: underline; }
+footer#colophon .site-info { max-width: 1100px; margin: 28px auto 0; padding: 16px 0 20px; border-top: 1px solid rgba(214, 210, 238, .25); text-align: center; color: #d6d2ee; font-size: 13px; }
+footer#colophon .site-info p { margin: 0 0 4px; }
+.footer-notice { font-style: italic; opacity: .85; }
+@media (max-width: 900px) { .footer-columns { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .footer-columns { grid-template-columns: 1fr 1fr; gap: 22px 18px; } .footer-about, .footer-blog { grid-column: 1 / -1; } .footer-blog { order: 4; } footer#colophon { padding: 24px 18px 0; } }

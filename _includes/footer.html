@@ -1,10 +1,32 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="footnav">
-			<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu">
-			{% for item in site.data.navigation %}<li class="menu-item{% if page.url == item.url %} current-menu-item{% endif %}"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-			{% endfor %}</ul></div>
-		</div><!-- .site-info -->
+		<div class="footer-columns">
+			<section class="footer-col footer-about">
+				<h2 class="footer-heading">{{ site.title }}</h2>
+				<p>AKC Breeder of Merit raising Miniature Longhaired Dachshunds in South Jersey, near Philadelphia, for more than 20 years.</p>
+				<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+			</section>
+			<nav class="footer-col" aria-label="Footer">
+				<h2 class="footer-heading">Explore</h2>
+				<ul>
+				{% for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+				{% endfor %}<li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+				</ul>
+			</nav>
+			<section class="footer-col footer-blog">
+				<h2 class="footer-heading">From the Blog</h2>
+				<ul>
+				{% for post in site.categories.blog limit: 4 %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+				{% endfor %}</ul>
+			</section>
+			<section class="footer-col">
+				<h2 class="footer-heading">Dachshund Resources</h2>
+				<ul>
+				{% for link in site.data.links %}<li><a href="{{ link.url }}" rel="noopener" target="_blank">{{ link.title }}</a></li>
+				{% endfor %}</ul>
+			</section>
+		</div>
 		<div class="site-info">
-			&copy; {{ site.time | date: "%Y" }}&nbsp;{{ site.title }}
-		</div><!-- .site-info -->
+			<p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+			<p class="footer-notice">Beware of imposter websites: we never ship puppies or sell them through online checkout. Our only website is harlequindachshunds.com.</p>
+		</div>
 	</footer><!-- #colophon -->
