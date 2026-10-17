@@ -4,6 +4,9 @@ description: Miniature Longhaired Dachshunds – breeders in South Jersey
 email: DoxyLadyNJ@gmail.com
 url: https://harlequindachshunds.com
 baseurl: ""
+logo: /assets/images/site/final-logo-fixed-feet.jpg
+author: Karen R. Scheiner
+location: South Jersey, near Philadelphia
 
 # Build settings (no need to change these)
 markdown: kramdown
@@ -20,5 +23,6 @@ defaults:
       layout: post
       body_class: single single-post
 exclude:
+  - tools
   - README.md
   - HOW-TO-UPDATE.md

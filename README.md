@@ -25,7 +25,12 @@ The site is now plain files with no database, so it can't be lost the way the Wo
 | `_data/comments.json` | Reader comments saved from the old blog |
 | `_config.yml` | Site name, email address, location |
 | `_layouts/`, `_includes/` | Page templates, copied from the original theme's layout |
-| `assets/css/style.css` | The original theme's stylesheet, unchanged except for image paths. Small additions are in `fixes.css`. |
+| `assets/css/site.css` | The one stylesheet: the original theme's styles (unused WordPress rules removed) plus the site's own additions |
+| `assets/js/site.js` | The one script: phone menu and photo viewer |
+| `assets/img-sizes/` | Fast WebP copies of every photo in several sizes (made automatically, don't edit) |
+| `_data/image_sizes.json` | List of those sizes (made automatically) |
+| `tools/optimize_images.py` | Makes the fast photo copies (see HOW-TO-UPDATE.md) |
+| `_includes/social-and-schema.html` | Link previews and structured data for Google (filled in automatically) |
 | `redirects/` | Keep old links (old `.htm` pages, tag pages) working |
 | `CNAME` | Tells GitHub the site's domain name |
 

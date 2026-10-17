@@ -15,7 +15,7 @@ layout: default
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-{{ post.content }}
+{% if forloop.first %}{{ post.content }}{% else %}{{ post.content | replace: 'fetchpriority="high" loading="eager"', 'loading="lazy" decoding="async"' }}{% endif %}
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

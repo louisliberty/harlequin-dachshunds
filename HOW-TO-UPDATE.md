@@ -69,6 +69,17 @@ Molly took **Best of Variety** at the Hunterdon Hills Kennel Club show in Novemb
 
 ---
 
+## Keeping new photos fast
+The site serves each visitor a right-sized WebP copy of every photo (phones get small files). Those copies are made by `tools/optimize_images.py`.
+
+- **Easiest:** send the new photo to Claude with your update. Claude adds it and makes the fast copies.
+- **Yourself (on a Mac with Python):** after adding photos or posts in GitHub Desktop, open Terminal in the site folder and run `python3 tools/optimize_images.py`, then commit and push.
+- **If you skip this,** new photos still work: they just load at full size, like before.
+
+Fill in the photo's `alt="..."` with a short description of what's in it (for Google Images and screen readers).
+
+---
+
 ## Update the Puppies page (new litter, puppy available, litter placed)
 Open `puppies.html`, click the **pencil icon** (Edit), make your changes, and click **Commit changes**.
 Puppy photos go in `assets/images/puppies/`.

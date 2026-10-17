@@ -1,0 +1,771 @@
+{
+ "/assets/images/blog/carrot.jpg": {
+  "h": 720,
+  "sizes": [
+   480,
+   694
+  ],
+  "w": 694
+ },
+ "/assets/images/blog/mach-cake.jpg": {
+  "h": 1123,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/abby/agility-abby-1.jpg": {
+  "h": 286,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/abby/agility-abby-2.jpg": {
+  "h": 286,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/axyl/axyl.jpg": {
+  "h": 1367,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/axyl/major-at-potomac-hound-2016-cropped.jpg": {
+  "h": 666,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/bailey/agility-bailey-1.jpg": {
+  "h": 257,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/bailey/agility-bailey-6.jpg": {
+  "h": 219,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/bailey/agility-bailey-7.jpg": {
+  "h": 209,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/bailey/bailey-brace.jpg": {
+  "h": 214,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/bailey/bailey-jumping.jpg": {
+  "h": 222,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/bailey/conformation-bailey-3.jpg": {
+  "h": 223,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/bailey/conformation-bailey-4.jpg": {
+  "h": 223,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/bailey/obedience-bailey-2.jpg": {
+  "h": 370,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/blue/blue.jpg": {
+  "h": 687,
+  "sizes": [
+   480,
+   800,
+   960
+  ],
+  "w": 960
+ },
+ "/assets/images/dogs/candy/agility-candy.jpg": {
+  "h": 251,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/cessna/cessna-ch-photo.jpg": {
+  "h": 1143,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/chelsea/chelseame2-4-09.jpg": {
+  "h": 1600,
+  "sizes": [
+   480,
+   800,
+   1200
+  ],
+  "w": 1200
+ },
+ "/assets/images/dogs/chelsea/mach-chelsea.jpg": {
+  "h": 994,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/chelsea/mach-poster-10-10-14.jpg": {
+  "h": 1245,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/chelsea/obed-hit-2015-may.jpg": {
+  "h": 400,
+  "sizes": [
+   480,
+   600
+  ],
+  "w": 600
+ },
+ "/assets/images/dogs/cherry/cherry-agility.jpg": {
+  "h": 283,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/cherry/cherry-karen.jpg": {
+  "h": 250,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/colby/colby1.jpg": {
+  "h": 284,
+  "sizes": [
+   480,
+   658
+  ],
+  "w": 658
+ },
+ "/assets/images/dogs/dustin/dustin-w-ribbons.jpg": {
+  "h": 1600,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1502
+  ],
+  "w": 1502
+ },
+ "/assets/images/dogs/emerald/emerald-2014-dachshund.jpg": {
+  "h": 367,
+  "sizes": [
+   480,
+   658
+  ],
+  "w": 658
+ },
+ "/assets/images/dogs/emerald/emerald-jumping-2014.jpg": {
+  "h": 799,
+  "sizes": [
+   480,
+   800,
+   1200
+  ],
+  "w": 1200
+ },
+ "/assets/images/dogs/emerald/emerald-weaves-2013.jpg": {
+  "h": 1065,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/emerald/puppy-sleeping-dapple-girl-emerald-x-blue.jpg": {
+  "h": 1600,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/glory/glory-1.jpg": {
+  "h": 286,
+  "sizes": [
+   480,
+   658
+  ],
+  "w": 658
+ },
+ "/assets/images/dogs/glory/glory.jpg": {
+  "h": 232,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/glory/glory1.jpg": {
+  "h": 1200,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/harley/agility-harley-2.jpg": {
+  "h": 257,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/harley/agility-harley-3.jpg": {
+  "h": 208,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/harley/conformation-harley-2.jpg": {
+  "h": 161,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/harley/conformation-harley-3.jpg": {
+  "h": 134,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/harley/harley-2.jpg": {
+  "h": 365,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/harley/harleys-puppies.jpg": {
+  "h": 168,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/harley/harleytherapy.png": {
+  "h": 336,
+  "sizes": [
+   280
+  ],
+  "w": 280
+ },
+ "/assets/images/dogs/harley/obedience-harley-1.jpg": {
+  "h": 365,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/dogs/hershey/hershey-winner.jpg": {
+  "h": 286,
+  "sizes": [
+   480,
+   658
+  ],
+  "w": 658
+ },
+ "/assets/images/dogs/jade/jade-bos.jpg": {
+  "h": 749,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/jazz/jazz.png": {
+  "h": 280,
+  "sizes": [
+   336
+  ],
+  "w": 336
+ },
+ "/assets/images/dogs/jet/jet-dca-2016.jpg": {
+  "h": 495,
+  "sizes": [
+   480,
+   800,
+   878
+  ],
+  "w": 878
+ },
+ "/assets/images/dogs/kendall/kendall-3rd-major-to-ch.jpg": {
+  "h": 1234,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/kendall/kendall-gch-title-dec-2023.jpg": {
+  "h": 1280,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/molly/molly-fast-cat-2023.jpg": {
+  "h": 1145,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/molly/molly-final-point.jpg": {
+  "h": 1282,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/piper/piper-2018-major-win.png": {
+  "h": 487,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/rock-star/major-wildwood.jpg": {
+  "h": 623,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1458
+  ],
+  "w": 1458
+ },
+ "/assets/images/dogs/rock-star/rock-center-shot.jpg": {
+  "h": 1067,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/rock-star/rock-heel-sit-2013.jpg": {
+  "h": 615,
+  "sizes": [
+   480,
+   800,
+   835
+  ],
+  "w": 835
+ },
+ "/assets/images/dogs/rock-star/rock-open-win-nikon.jpg": {
+  "h": 1080,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1440
+  ],
+  "w": 1440
+ },
+ "/assets/images/dogs/rock-star/utility-2016-rock-articles.jpg": {
+  "h": 800,
+  "sizes": [
+   480,
+   800,
+   1200
+  ],
+  "w": 1200
+ },
+ "/assets/images/dogs/rock-star/utility-2016-rock-bar-jump.jpg": {
+  "h": 800,
+  "sizes": [
+   480,
+   800,
+   1200
+  ],
+  "w": 1200
+ },
+ "/assets/images/dogs/rolex/rolex-sitting.jpg": {
+  "h": 375,
+  "sizes": [
+   480,
+   600
+  ],
+  "w": 600
+ },
+ "/assets/images/dogs/rolex/rolex-trenton-may-2015.jpg": {
+  "h": 434,
+  "sizes": [
+   480,
+   600
+  ],
+  "w": 600
+ },
+ "/assets/images/dogs/rolex/rolextoy.jpg": {
+  "h": 800,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/dogs/sadie/sadie-front-2013.jpg": {
+  "h": 571,
+  "sizes": [
+   480,
+   800,
+   836
+  ],
+  "w": 836
+ },
+ "/assets/images/dogs/toby/toby.png": {
+  "h": 336,
+  "sizes": [
+   280
+  ],
+  "w": 280
+ },
+ "/assets/images/dogs/william/william.jpg": {
+  "h": 315,
+  "sizes": [
+   480,
+   658
+  ],
+  "w": 658
+ },
+ "/assets/images/home/open-dumbbell-jump-2015.jpg": {
+  "h": 1056,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/puppies/4-puppies-2018.jpg": {
+  "h": 1280,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/puppies/chocolate-red-puppies2.jpg": {
+  "h": 805,
+  "sizes": [
+   480,
+   800,
+   1078
+  ],
+  "w": 1078
+ },
+ "/assets/images/puppies/cream-puppy.jpg": {
+  "h": 1200,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/puppies/dapple-boy.jpg": {
+  "h": 744,
+  "sizes": [
+   480,
+   636
+  ],
+  "w": 636
+ },
+ "/assets/images/puppies/dapple-pie.jpg": {
+  "h": 450,
+  "sizes": [
+   480,
+   600
+  ],
+  "w": 600
+ },
+ "/assets/images/puppies/el-sid-puppy-dapple.jpg": {
+  "h": 1200,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/puppies/litter-2005.jpg": {
+  "h": 192,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/puppies/litter.png": {
+  "h": 280,
+  "sizes": [
+   336
+  ],
+  "w": 336
+ },
+ "/assets/images/puppies/puppies-12-09.jpg": {
+  "h": 185,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/puppies/puppies-bunch-2014.jpg": {
+  "h": 450,
+  "sizes": [
+   480,
+   600
+  ],
+  "w": 600
+ },
+ "/assets/images/puppies/puppies-choc.jpg": {
+  "h": 209,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/puppies/puppies-wagon.jpg": {
+  "h": 296,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/puppies/puppy-6608webready.jpg": {
+  "h": 600,
+  "sizes": [
+   480,
+   525
+  ],
+  "w": 525
+ },
+ "/assets/images/puppies/puppy-collage1.jpg": {
+  "h": 300,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/puppies/puppy-collage2.jpg": {
+  "h": 300,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/puppies/puppy-collage5.jpg": {
+  "h": 300,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/puppies/puppy-collage6.jpg": {
+  "h": 300,
+  "sizes": [
+   300
+  ],
+  "w": 300
+ },
+ "/assets/images/puppies/silver-dapple-w-logo.jpg": {
+  "h": 1336,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/site/about-1-dachshund.jpg": {
+  "h": 185,
+  "sizes": [
+   250
+  ],
+  "w": 250
+ },
+ "/assets/images/site/about-4-dachshunds.jpg": {
+  "h": 167,
+  "sizes": [
+   250
+  ],
+  "w": 250
+ },
+ "/assets/images/site/about-5.jpg": {
+  "h": 200,
+  "sizes": [
+   250
+  ],
+  "w": 250
+ },
+ "/assets/images/site/breeder-merit-dachshunds.jpg": {
+  "h": 282,
+  "sizes": [
+   480,
+   525
+  ],
+  "w": 525
+ },
+ "/assets/images/site/color-curvy-line-1.png": {
+  "h": 315,
+  "sizes": [
+   480,
+   800,
+   851
+  ],
+  "w": 851
+ },
+ "/assets/images/site/color-curvy-line.png": {
+  "h": 315,
+  "sizes": [
+   480,
+   800,
+   851
+  ],
+  "w": 851
+ },
+ "/assets/images/site/dachshund-dash.jpg": {
+  "h": 400,
+  "sizes": [
+   480,
+   600
+  ],
+  "w": 600
+ },
+ "/assets/images/site/divider-diamonds.jpg": {
+  "h": 46,
+  "sizes": [
+   434
+  ],
+  "w": 434
+ },
+ "/assets/images/site/final-logo-fixed-feet.jpg": {
+  "h": 934,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
+ "/assets/images/site/header.jpg": {
+  "h": 122,
+  "sizes": [
+   480,
+   800,
+   1000
+  ],
+  "w": 1000
+ },
+ "/assets/images/site/photo-doggie.jpg": {
+  "h": 400,
+  "sizes": [
+   480,
+   600
+  ],
+  "w": 600
+ },
+ "/assets/images/site/sidebar-agility.jpg": {
+  "h": 150,
+  "sizes": [
+   150
+  ],
+  "w": 150
+ },
+ "/assets/images/site/sidebar-puppy.jpg": {
+  "h": 150,
+  "sizes": [
+   150
+  ],
+  "w": 150
+ }
+}

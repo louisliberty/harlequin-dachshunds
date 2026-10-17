@@ -8,12 +8,9 @@
 {% if page.robots %}<meta name="robots" content="{{ page.robots }}">
 {% else %}<link rel="canonical" href="{{ page.url | absolute_url }}">
 {% endif %}
-{% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% endif %}
+{% include social-and-schema.html %}
 <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/wordpress-base.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
-<link rel="stylesheet" href="{{ '/assets/css/media-queries.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
-<link rel="stylesheet" href="{{ '/assets/css/fixes.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 </head>
 
 <body class="{{ page.body_class | default: 'page' }} group-blog">
@@ -35,8 +32,6 @@
 	{% include footer.html %}
 </div><!-- #page -->
 
-<script src="{{ '/assets/js/navigation.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}"></script>
-<script src="{{ '/assets/js/skip-link-focus-fix.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}"></script>
-<script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}"></script>
+<script defer src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}"></script>
 </body>
 </html>
