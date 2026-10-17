@@ -1,7 +1,7 @@
 {% comment %}
   Link previews (Facebook, iMessage, X, LinkedIn…) and structured data for Google and AI search.
   Everything is filled in automatically from each page's title, description, image and date.
-{% endcomment %}{% assign is_home = false %}{% if page.body_class contains "home" %}{% assign is_home = true %}{% endif %}{% assign share_title = page.title | strip_html %}{% if is_home %}{% assign share_title = site.title | append: " | " | append: site.description %}{% endif %}{% assign share_desc = page.summary | default: page.description | default: site.description | strip_html %}{% assign share_img = page.image | default: page.card_image | default: site.logo %}{% assign is_post = false %}{% if page.date and page.categories %}{% assign is_post = true %}{% endif %}
+{% endcomment %}{% assign is_home = false %}{% if page.body_class contains "home" %}{% assign is_home = true %}{% endif %}{% assign share_title = page.seo_title | default: page.title | strip_html %}{% if is_home %}{% assign share_title = site.title | append: " | " | append: site.description %}{% endif %}{% assign share_desc = page.summary | default: page.description | default: site.description | strip_html %}{% assign share_img = page.image | default: page.card_image | default: site.logo %}{% assign is_post = false %}{% if page.date and page.categories %}{% assign is_post = true %}{% endif %}
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:type" content="{% if is_post %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{{ share_title | escape }}">
