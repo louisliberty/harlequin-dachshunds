@@ -37,3 +37,8 @@ footer#colophon .site-info { color: #d6d2ee; font-size: 14px; padding-top: 12px;
 .category article h2.entry-title { text-align: center; color: #03C; font-size: 18px; }
 .category article h2.entry-title a { text-decoration: none; }
 .category article h2.entry-title a:hover { text-decoration: underline; }
+
+/* Former in-text H1s on Home and Puppies, now H2s/blocks: keep their original plain look
+   (the theme's ".page h2" rule would otherwise restyle them). */
+.entry-content h2.legacy-heading, .entry-content .home-tagline { font-size: 16px; font-weight: 400; color: #404040; line-height: 24px; margin: 0; }
+.entry-content h2.legacy-heading { text-align: inherit; }
