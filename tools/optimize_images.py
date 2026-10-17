@@ -59,7 +59,7 @@ def srcset(src, info):
 
 def sizes_attr(width):
     # Phones: almost full screen width. Larger screens: the photo's set width, capped by the content column.
-    return f'(max-width: 600px) 92vw, min({width}px, 62vw)' if width else '(max-width: 600px) 92vw, 62vw'
+    return f'(max-width: 600px) 92vw, min({width}px, 92vw, 1000px)' if width else '(max-width: 600px) 92vw, min(92vw, 1000px)'
 
 IMG_RE = re.compile(r'(<picture>\s*<source[^>]*>\s*)?(<img\b[^>]*>)(\s*</picture>)?', re.S)
 ATTR = lambda tag, a: (re.search(rf'\b{a}="([^"]*)"', tag) or [None, None])[1]
