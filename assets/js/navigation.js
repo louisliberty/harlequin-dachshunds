@@ -10,8 +10,8 @@
 	if ( ! container )
 		return;
 
-	button = container.getElementsByTagName( 'h1' )[0];
-	if ( 'undefined' === typeof button )
+	button = container.querySelector( '.menu-toggle' );
+	if ( ! button )
 		return;
 
 	menu = container.getElementsByTagName( 'ul' )[0];

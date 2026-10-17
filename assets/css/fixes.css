@@ -30,3 +30,10 @@ img { max-width: 100%; height: auto; }
 /* Footer copyright: readable soft lavender on the navy footer (was dark gray, nearly invisible) */
 footer#colophon { height: auto; padding-bottom: 16px; }
 footer#colophon .site-info { color: #d6d2ee; font-size: 14px; padding-top: 12px; }
+
+/* Headings: only one H1 per page. Sidebar box titles and the mobile "Menu" button are no longer H1s;
+   category-page post titles are H2s. These rules keep them looking exactly as before. */
+#secondary h2.widget-title { font-size: 12px; font-weight: 400; color: #fff; text-align: start; margin: 0; }
+.category article h2.entry-title { text-align: center; color: #03C; font-size: 18px; }
+.category article h2.entry-title a { text-decoration: none; }
+.category article h2.entry-title a:hover { text-decoration: underline; }
