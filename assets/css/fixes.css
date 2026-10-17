@@ -7,3 +7,22 @@ img { max-width: 100%; height: auto; }
 .no-comments { font-style: italic; }
 .rl-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: flex; align-items: center; justify-content: center; z-index: 9999; cursor: zoom-out; padding: 16px; }
 .rl-overlay img { max-height: 92vh; max-width: 100%; border: 6px solid #fff; border-radius: 4px; }
+
+/* Blog index cards (/blog/) – styled to match the original theme's blues and purples */
+.blog-header { text-align: center; margin-bottom: 24px; }
+.blog-intro p { max-width: 640px; margin: 8px auto 0; color: #333; line-height: 1.6; }
+.blog-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin: 0 0 32px; }
+.blog-card { background: #fff; border: 1px solid #d8d4e6; border-top: 4px solid #333399; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 6px rgba(46, 0, 46, .12); transition: box-shadow .15s, transform .15s; }
+.blog-card:hover { box-shadow: 0 6px 16px rgba(46, 0, 46, .22); transform: translateY(-2px); }
+.blog-card-link, .blog-card-link:visited { display: flex; flex-direction: column; height: 100%; color: inherit; text-decoration: none; }
+.blog-card-image { aspect-ratio: 4 / 3; overflow: hidden; background: #eee; }
+.blog-card-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.blog-card-body { padding: 16px 18px 18px; display: flex; flex-direction: column; flex: 1; }
+.blog-card-label { margin: 0 0 6px; font-size: 12px; font-weight: bold; letter-spacing: .06em; text-transform: uppercase; color: #7a3f8f; }
+.blog-card-title { margin: 0 0 8px; font-size: 18px; line-height: 1.3; color: #00007D; text-align: left; }
+.blog-card-summary { margin: 0 0 10px; font-size: 14px; line-height: 1.55; color: #333; }
+.blog-card-meta { margin: 0 0 14px; font-size: 13px; font-style: italic; color: #666; }
+.blog-card-more { margin-top: auto; align-self: flex-start; background: #333399; color: #fff; font-size: 14px; font-weight: bold; padding: 8px 14px; border-radius: 4px; }
+.blog-card:hover .blog-card-more { background: #00007D; }
+.blog-card-link:focus-visible { outline: 3px solid #7a3f8f; outline-offset: 2px; }
+@media (max-width: 700px) { .blog-cards { grid-template-columns: 1fr; } }
