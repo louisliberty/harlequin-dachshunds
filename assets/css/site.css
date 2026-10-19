@@ -303,3 +303,7 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .entry-content .photo-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 28px; }
 .entry-content .photo-grid-4 a { aspect-ratio: 1 / 1; }
 @media (max-width: 700px) { .entry-content .photo-grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.pup-grid-top figure:nth-child(1) img { object-position: 50% 50%; }
+.pup-grid-top figure:nth-child(2) img { object-position: 50% 45%; }
+.pup-grid-top figure:nth-child(3) img { object-position: 50% 40%; }
+.pup-grid-top figure:nth-child(4) img { object-position: 55% 45%; }

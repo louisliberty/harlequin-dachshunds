@@ -541,14 +541,13 @@
   "w": 1078
  },
  "/assets/images/puppies/cream-puppy.jpg": {
-  "h": 1200,
+  "h": 1600,
   "sizes": [
    480,
    800,
-   1200,
-   1600
+   1200
   ],
-  "w": 1600
+  "w": 1200
  },
  "/assets/images/puppies/dapple-boy.jpg": {
   "h": 744,
