@@ -23,9 +23,6 @@ layout: default
 	</aside>
 	{% endif %}
 
-	<footer class="entry-footer">
-		Posted in: {% for cat in page.categories %}<a href="{{ site.data.categories[cat].url | relative_url }}" rel="category tag">{{ site.data.categories[cat].title | default: cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 
 {% include comments.html %}
