@@ -316,3 +316,4 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 
 /* Space between dog sections on the sport pages (replaces the old diamond divider) */
 .category article.post, .archive article.post { margin-bottom: 48px; }
+.home .entry-content .home-grid { margin-top: 8px; margin-bottom: 40px; }
