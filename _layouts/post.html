@@ -5,13 +5,23 @@ layout: default
 	<header class="entry-header">
 		<h1 class="entry-title">{{ page.heading | default: page.title }}</h1>
 
-		<div class="entry-meta">
-		</div><!-- .entry-meta -->
+		{% if page.categories contains "blog" %}<p class="article-byline">By <a href="{{ '/about-us/' | relative_url }}">Karen R. Scheiner</a> &middot; AKC Breeder of Merit &amp; Dachshund judge</p>{% endif %}
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 {{ content }}
 	</div><!-- .entry-content -->
+	{% if page.categories contains "blog" %}
+	<aside class="author-box" aria-label="About the author">
+		<img class="author-box-img" src="/assets/images/site/author-mark.webp" alt="" width="96" height="96" loading="lazy" decoding="async">
+		<div class="author-box-text">
+			<p class="author-box-label">About the author</p>
+			<p class="author-box-name">Karen R. Scheiner</p>
+			<p>Karen has bred, trained and shown miniature longhaired dachshunds for more than 20 years. She is an AKC Breeder of Merit and an AKC Dachshund judge, and her dogs have earned titles in conformation, agility and obedience.</p>
+			<p class="author-box-links"><a href="{{ '/about-us/' | relative_url }}">More about Karen</a> &middot; <a href="https://www.akc.org/expert-advice/news/attorney-gives-up-practice-for-dog-sports/" target="_blank" rel="noopener">Featured on AKC.org &rarr;</a></p>
+		</div>
+	</aside>
+	{% endif %}
 
 	<footer class="entry-footer">
 		Posted in: {% for cat in page.categories %}<a href="{{ site.data.categories[cat].url | relative_url }}" rel="category tag">{{ site.data.categories[cat].title | default: cat }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
