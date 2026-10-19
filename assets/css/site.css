@@ -221,3 +221,10 @@ body, button, input, select, textarea { font-family: Inter, system-ui, -apple-sy
 .entry-content a:hover { color: #5e3347; }
 .entry-content .signature { display: block; text-align: right; font-style: italic; margin-top: 6px; }
 @media (max-width: 600px) { .entry-content p, .entry-content li { font-size: 17px; } }
+
+/* Home page: breathing room around and between photos */
+.home .entry-content > picture, .home .entry-content > .imgcontainer, .home .entry-content > h3, .home .entry-content > p:has(picture) { display: block; margin-top: 32px; margin-bottom: 32px; }
+.home .entry-content .imgcontainer picture, .home .entry-content > h3 picture { display: inline-block; margin: 10px 4px; vertical-align: top; }
+.home .entry-content p.as-heading { margin-top: 28px; margin-bottom: 28px; }
+.home .entry-content picture:has(img.alignleft) { display: block; margin: 32px 0; }
+.home .entry-content picture img.alignleft { float: none; display: block; margin: 0; }
