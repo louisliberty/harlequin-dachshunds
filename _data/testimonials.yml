@@ -1,0 +1,29 @@
+# Testimonials shown on the home page (all) and the Puppies page (owner: true).
+# Taken from reader comments on the original blog; shown as first name + last initial.
+- name: Regina L.
+  context: Owner of two Harlequin dachshunds
+  year: 2016
+  owner: true
+  quote: "I have two dachshunds, both from Harlequin Dachshunds. They have the most wonderful dispositions, very social with other dogs and just love children. Also they are beautiful dogs; I get stopped all the time with compliments! Thank you Karen for bringing such joy into our lives with your very special puppies."
+- name: Shirlane and Mike Y.
+  context: Joey’s family, 2018 litter
+  year: 2020
+  owner: true
+  quote: "We were so lucky to adopt Joey from your 2018 litter. He is a beautiful dog, his temperament is ideal and he is an awesome companion. EVERYONE loves Joey! Your tips were quite helpful to us as new dog parents."
+- name: Michele G.
+  context: Owner of two Harlequin dachshunds
+  year: 2014
+  owner: true
+  quote: "Karen is an awesome trainer. I bought two puppies from her and she inspired me to train them in obedience… It’s a thrill to be successful at an obedience trial!"
+- name: Kathy C.
+  context: Fellow obedience competitor
+  year: 2017
+  quote: "Karen and I train at the same facility so I have had the opportunity to watch her train several of her dogs. Patience, perseverance and success is evident in her training style. I admire the connection that Karen has with her dogs."
+- name: Arleen
+  context: Blog reader
+  year: 2014
+  quote: "You are very upbeat with your dogs while training and in the ring. I don’t think that your dogs think it is work but having fun and wanting to please you."
+- name: Lucinda M.
+  context: Dog owner since 1958
+  year: 2016
+  quote: "Thank you for featuring adult dogs on your website… It is wonderful of you to promote the adult dog."

@@ -1,0 +1,9 @@
+<section class="testimonials" aria-labelledby="testimonials-heading-{{ include.id | default: 'main' }}">
+	<h2 class="testimonials-heading" id="testimonials-heading-{{ include.id | default: 'main' }}">{{ include.heading | default: "What people say" }}</h2>
+	<div class="testimonial-grid">
+	{% for t in site.data.testimonials %}{% if t.owner or include.owners == nil %}<figure class="testimonial">
+		<blockquote>“{{ t.quote }}”</blockquote>
+		<figcaption><span class="testimonial-name">{{ t.name }}</span><span class="testimonial-context">{{ t.context }}</span></figcaption>
+	</figure>{% endif %}
+	{% endfor %}</div>
+</section>
