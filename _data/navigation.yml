@@ -1,6 +1,8 @@
 # Main menu (the pink bone buttons) and footer menu. Order here = order on the site.
 - title: Home
   url: /
+- title: About Us
+  url: /about-us/
 - title: Conformation
   url: /category/conformation/
 - title: Agility
@@ -11,5 +13,3 @@
   url: /puppies/
 - title: In Memory
   url: /in-memory/
-- title: About Us
-  url: /about-us/
