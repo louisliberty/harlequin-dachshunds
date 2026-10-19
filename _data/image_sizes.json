@@ -152,6 +152,16 @@
   ],
   "w": 1600
  },
+ "/assets/images/dogs/chelsea/mach-poster-10-10-14-readable.jpg": {
+  "h": 1245,
+  "sizes": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "w": 1600
+ },
  "/assets/images/dogs/chelsea/mach-poster-10-10-14.jpg": {
   "h": 1245,
   "sizes": [
@@ -743,6 +753,13 @@
    1000
   ],
   "w": 1000
+ },
+ "/assets/images/site/logo-header-144.png": {
+  "h": 144,
+  "sizes": [
+   460
+  ],
+  "w": 460
  },
  "/assets/images/site/photo-doggie.jpg": {
   "h": 400,
