@@ -361,7 +361,7 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 
 /* Mobile menu button: hamburger icon that turns into an X when open */
 #site-navigation .menu-toggle a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border-radius: 10px; }
-#site-navigation .menu-toggle a:hover { background-color: #f6eef3; }
+@media (hover: hover) { #site-navigation .menu-toggle a:hover { background-color: #f6eef3; } }
 #site-navigation .menu-toggle a:focus:not(:focus-visible) { outline: none; }
 #site-navigation .menu-toggle a:focus-visible { outline: 2px solid #7e4960; outline-offset: 2px; }
 #site-navigation .burger { position: relative; display: block; width: 24px; height: 18px; }
@@ -378,3 +378,10 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 @media (min-width: 1001px) {
   #masthead.site-header { padding-left: max(28px, calc((100% - 1040px) / 2)); padding-right: max(28px, calc((100% - 1040px) / 2)); }
 }
+
+/* Menu: even hover highlight around the text; the current-page bone hangs just below it */
+#site-navigation #menu-primary { padding-bottom: 16px; }
+#masthead #site-navigation #menu-primary a, #site-navigation #menu-primary a { padding: 8px 12px; }
+#site-navigation #menu-primary .current-menu-item > a::after { bottom: -14px; }
+@media screen and (max-width: 1000px) { #masthead #site-navigation #menu-primary { row-gap: 18px; } }
+#masthead #site-navigation #menu-primary { padding-bottom: 16px; }
