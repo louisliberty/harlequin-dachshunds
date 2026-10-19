@@ -284,3 +284,18 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 /* Photo captions: smaller and tighter than body text */
 .entry-content .wp-caption p.wp-caption-text, .entry-content p.wp-caption-text { font-size: 14px; line-height: 1.45; margin: 6px 8px 8px; color: #5d5b6a; text-align: center; }
 .entry-content .wp-caption-text strong, .entry-content .wp-caption-text b { font-weight: 400; }
+
+/* Photo grid (Puppies page: "forever homes" puppies) */
+.entry-content .photo-grid { clear: both; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; max-width: 960px; margin: 24px auto 8px; }
+.entry-content .photo-grid figure { margin: 0; background: #fff; border: 1px solid #e4dfea; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(40,0,40,.08); transition: transform .15s, box-shadow .15s; }
+.entry-content .photo-grid figure:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(40,0,40,.16); }
+.entry-content .photo-grid a { display: block; aspect-ratio: 4 / 3; overflow: hidden; }
+.entry-content .photo-grid picture { display: block; height: 100%; }
+.entry-content .photo-grid img { width: 100%; height: 100%; max-width: none; object-fit: cover; display: block; margin: 0; }
+.entry-content .photo-grid figcaption { font-size: 14px; line-height: 1.4; color: #5d5b6a; text-align: center; padding: 8px 10px 10px; }
+.entry-content p.photo-credit { text-align: center; font-size: 13px; line-height: 1.4; color: #8a8796; margin: 6px 0 28px; }
+.pup-grid-forever figure:nth-child(1) img { object-position: 50% 22%; }
+.pup-grid-forever figure:nth-child(3) img { object-position: 72% 50%; }
+.pup-grid-forever figure:nth-child(4) img { object-position: 45% 62%; }
+.pup-grid-forever figure:nth-child(5) img { object-position: 55% 50%; }
+@media (max-width: 700px) { .entry-content .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } }
