@@ -307,3 +307,6 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .pup-grid-top figure:nth-child(2) img { object-position: 50% 45%; }
 .pup-grid-top figure:nth-child(3) img { object-position: 50% 40%; }
 .pup-grid-top figure:nth-child(4) img { object-position: 55% 45%; }
+
+/* Intro paragraph under a page title */
+.entry-content p.page-intro { max-width: 760px; margin: 0 auto 24px; text-align: center; text-wrap: pretty; }
