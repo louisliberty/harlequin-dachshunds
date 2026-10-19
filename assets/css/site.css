@@ -211,3 +211,13 @@ footer#colophon .site-info p { margin: 0 0 4px; }
 .entry-content h1.home-tagline { font-family: Lora, Georgia, "Times New Roman", serif; font-weight: 500; font-style: normal; color: #1d1b5e; font-size: 32px; line-height: 1.3; letter-spacing: -.005em; text-align: center; max-width: 940px; margin: 0 auto 40px; text-wrap: balance; }
 .home-tagline .nowrap { white-space: nowrap; }
 @media (max-width: 600px) { .entry-content h1.home-tagline { font-size: 24px; } }
+
+/* Body text: Inter, charcoal, comfortable size and line length */
+body, button, input, select, textarea { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #2b2a33; }
+.category-blog .entry-content { max-width: 800px; margin-left: auto; margin-right: auto; }  /* reading width for articles; older photo pages keep the full width */
+.entry-content p, .entry-content li { font-size: 18px; line-height: 1.7; color: #2b2a33; }
+.entry-content p[style*="justify"] { text-align: left !important; }
+.entry-content a { color: #7e4960; text-underline-offset: 2px; }
+.entry-content a:hover { color: #5e3347; }
+.entry-content .signature { display: block; text-align: right; font-style: italic; margin-top: 6px; }
+@media (max-width: 600px) { .entry-content p, .entry-content li { font-size: 17px; } }
