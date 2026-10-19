@@ -390,3 +390,6 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .entry-content .health-callout p.health-callout-text { font-size: 17px; line-height: 1.6; color: #2b2a33; margin: 0; }
 .entry-content .health-callout a { font-weight: 600; white-space: nowrap; }
 @media (max-width: 600px) { .entry-content .health-callout a { white-space: normal; } }
+
+/* In Memory: section headings in the body text style */
+.entry-content h2.memory-heading { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; color: #2b2a33; text-align: center; margin: 8px 0 16px; }
