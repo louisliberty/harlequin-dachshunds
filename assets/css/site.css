@@ -280,3 +280,6 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .author-box-links a { color: #7e4960; font-weight: 600; }
 .category-blog .entry-footer { max-width: 800px; margin-left: auto; margin-right: auto; }
 @media (max-width: 600px) { .author-box { flex-direction: column; align-items: center; text-align: center; padding: 20px 18px; } }
+
+/* Photo captions: smaller and tighter than body text */
+.entry-content .wp-caption p.wp-caption-text, .entry-content p.wp-caption-text { font-size: 14px; line-height: 1.45; margin: 6px 8px 8px; color: #5d5b6a; text-align: center; }
