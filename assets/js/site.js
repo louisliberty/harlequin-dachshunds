@@ -10,7 +10,9 @@
     if (menu.className.indexOf('nav-menu') === -1) menu.className += ' nav-menu';
     button.addEventListener('click', function (e) {
       e.preventDefault();
-      nav.classList.toggle('toggled');
+      var open = nav.classList.toggle('toggled');
+      var link = button.querySelector('a');
+      if (link) link.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
   } else if (button) {
     button.style.display = 'none';
