@@ -248,3 +248,12 @@ footer#colophon .footer-badge img { display: block; width: 150px; height: auto; 
 footer#colophon .footer-featured { margin: 0 0 14px; font-size: 14px; }
 footer#colophon .footer-featured a { font-weight: 600; }
 @media (max-width: 600px) { .entry-content .featured-akc { padding: 18px 18px; } .entry-content blockquote.featured-akc-quote { font-size: 20px; } }
+
+/* HTML site map */
+.html-sitemap { max-width: 760px; margin: 0 auto 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 48px; text-align: left; }
+.html-sitemap h2, .page .html-sitemap h2 { font-family: Lora, Georgia, serif; font-weight: 500; font-size: 22px; color: #1d1b5e; text-align: left; margin: 8px 0 10px; }
+.html-sitemap h2 a { color: inherit; text-decoration: none; }
+.html-sitemap h2 a:hover { text-decoration: underline; }
+.html-sitemap ul { list-style: none; margin: 0; padding: 0; }
+.html-sitemap li { margin: 0 0 8px; }
+@media (max-width: 700px) { .html-sitemap { grid-template-columns: 1fr; } }
