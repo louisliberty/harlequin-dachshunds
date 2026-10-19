@@ -1,5 +1,5 @@
 # Display names and pages for categories (the words in "categories: [...]" at the top of each post).
-conformation: {title: Conformation, url: /category/conformation/}
-agility: {title: Agility, url: /category/agility/}
-obedience: {title: Obedience, url: /category/obedience/}
+conformation: {title: Conformation, url: /conformation/}
+agility: {title: Agility, url: /agility/}
+obedience: {title: Obedience, url: /obedience/}
 blog: {title: Blog, url: /blog/}

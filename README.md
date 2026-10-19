@@ -15,7 +15,7 @@ The site is now plain files with no database, so it can't be lost the way the Wo
 | `index.html` | Home page |
 | `puppies.html`, `about-us.html`, `in-memory.html` | The other main pages |
 | `_posts/` | Every dog announcement and blog article, one file each, named `YEAR-MONTH-DAY-name.html` (new ones can be `.md`) |
-| `category/` | The Conformation, Agility, Obedience and Blog pages (they fill themselves in from `_posts`) |
+| `category/` | The Conformation, Agility, Obedience and Blog pages, served at /conformation/, /agility/, /obedience/ and /blog/ (they fill themselves in from `_posts`) |
 | `assets/images/dogs/<name>/` | Photos, one folder per dog |
 | `assets/images/puppies/` | Puppy and litter photos |
 | `assets/images/site/` | Header banner, logo, AKC badge, About Us photos |
