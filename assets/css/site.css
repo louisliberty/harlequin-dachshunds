@@ -299,3 +299,4 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .pup-grid-forever figure:nth-child(4) img { object-position: 45% 62%; }
 .pup-grid-forever figure:nth-child(5) img { object-position: 55% 50%; transform: scale(1.08); transform-origin: 45% 0%; }
 @media (max-width: 700px) { .entry-content .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } }
+.pup-grid-forever figure:nth-child(6) img { transform: scale(1.12); transform-origin: 45% 20%; }
