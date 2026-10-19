@@ -566,14 +566,13 @@
   "w": 600
  },
  "/assets/images/puppies/el-sid-puppy-dapple.jpg": {
-  "h": 1200,
+  "h": 1600,
   "sizes": [
    480,
    800,
-   1200,
-   1600
+   1200
   ],
-  "w": 1600
+  "w": 1200
  },
  "/assets/images/puppies/litter-2005.jpg": {
   "h": 192,
