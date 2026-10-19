@@ -373,3 +373,8 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 #site-navigation.toggled .burger span:nth-child(2) { opacity: 0; }
 #site-navigation.toggled .burger span:nth-child(3) { top: 7.5px; transform: rotate(-45deg); }
 @media screen and (max-width: 600px) { #masthead #site-navigation.toggled .menu-toggle { top: 12px; } }
+
+/* Header content lines up with the page content column on wide screens */
+@media (min-width: 1001px) {
+  #masthead.site-header { padding-left: max(28px, calc((100% - 1040px) / 2)); padding-right: max(28px, calc((100% - 1040px) / 2)); }
+}
