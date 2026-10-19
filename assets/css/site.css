@@ -96,7 +96,6 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title { co
 .page h2 { color:#00007D; font-size: 18px; text-align: center; font-weight: bold; margin-top: 10px; }
 .entry-header, .entry-content, .entry-footer { padding: 0 20px; }
 .entry-footer { font-size: smaller; }
-.item-divider { background:url(../images/theme/divider-diamonds.jpg) center no-repeat; height: 40px; margin: 0 auto; text-align: center; }
 .category .entry-footer { display: none; }
 .twopics { margin: 0 60px; }
 .twopics:before, .twopics:after { content: " "; display: table; }
@@ -314,3 +313,6 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .entry-content .photo-grid-3 { margin-bottom: 28px; }
 .entry-content .photo-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 28px; }
 @media (max-width: 700px) { .entry-content .photo-grid-2 { grid-template-columns: 1fr; max-width: 420px; } }
+
+/* Space between dog sections on the sport pages (replaces the old diamond divider) */
+.category article.post, .archive article.post { margin-bottom: 48px; }
