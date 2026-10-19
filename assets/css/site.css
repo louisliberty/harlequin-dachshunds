@@ -400,3 +400,5 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .category article h2.entry-title a:hover { color: #7e4960; text-decoration: underline; }
 .category .category-intro { max-width: 800px; margin: 0 auto 36px; }
 .category .category-intro p.page-intro { margin-bottom: 16px; }
+.category article .entry-content > .photo-grid:first-child { margin-top: 0; }
+.category article h2.entry-title { margin-bottom: 12px; }
