@@ -3,13 +3,13 @@
   url: /
 - title: About Us
   url: /about-us/
+- title: Puppies
+  url: /puppies/
+- title: Obedience
+  url: /category/obedience/
 - title: Conformation
   url: /category/conformation/
 - title: Agility
   url: /category/agility/
-- title: Obedience
-  url: /category/obedience/
-- title: Puppies
-  url: /puppies/
 - title: In Memory
   url: /in-memory/
