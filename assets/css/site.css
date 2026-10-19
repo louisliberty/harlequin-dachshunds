@@ -283,3 +283,4 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 
 /* Photo captions: smaller and tighter than body text */
 .entry-content .wp-caption p.wp-caption-text, .entry-content p.wp-caption-text { font-size: 14px; line-height: 1.45; margin: 6px 8px 8px; color: #5d5b6a; text-align: center; }
+.entry-content .wp-caption-text strong, .entry-content .wp-caption-text b { font-weight: 400; }
