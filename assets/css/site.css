@@ -415,3 +415,9 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .entry-content .testimonial-context { display: block; color: #5d5b6a; }
 @media (max-width: 900px) { .entry-content .testimonial-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .entry-content .testimonial-grid { grid-template-columns: 1fr; } .entry-content h2.testimonials-heading { font-size: 24px; } }
+
+/* Phone menu: when open, show the links in their own soft panel so they stand apart from the page */
+@media screen and (max-width: 600px) {
+  #masthead #site-navigation.toggled #menu-primary { margin: 12px 0 6px; padding: 12px 8px 6px; row-gap: 14px; column-gap: 4px; background: #faf6f9; border: 1px solid #ece8f0; border-radius: 14px; box-shadow: 0 6px 18px rgba(29, 27, 94, .10); }
+  #masthead.site-header:has(#site-navigation.toggled) { box-shadow: 0 8px 16px -12px rgba(29, 27, 94, .25); }
+}
