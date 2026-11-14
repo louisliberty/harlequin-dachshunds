@@ -15,10 +15,21 @@ layout: default
 			{% if card_img %}<div class="blog-card-image">{% if forloop.index <= 2 %}{% include picture.html src=card_img alt=post.card_alt sizes="(max-width: 700px) 92vw, 500px" priority=true %}{% else %}{% include picture.html src=card_img alt=post.card_alt sizes="(max-width: 700px) 92vw, 500px" lazy=true %}{% endif %}</div>{% endif %}
 			<div class="blog-card-body">
 				<h2 class="blog-card-title">{{ post.title }}</h2>
+				<p class="blog-card-meta">{% if post.topic %}{{ post.topic }}{% endif %}{% if post.read_time %} &middot; {{ post.read_time }} min read{% endif %}{% if post.last_modified_at %} &middot; Updated {{ post.last_modified_at | date: '%B %Y' }}{% endif %}</p>
 				<p class="blog-card-summary">{{ post.summary | default: post.description }}</p>
-				<span class="blog-card-more">Read more &rarr;</span>
+				<span class="blog-card-more" aria-hidden="true">Read the article &rarr;</span>
 			</div>
 		</a>
 	</article>
 {% endfor %}
 </div>
+
+<nav class="explore-dogs" aria-labelledby="explore-dogs-heading">
+	<p class="explore-dogs-heading" id="explore-dogs-heading">Explore our dogs</p>
+	<p class="explore-dogs-intro">See the titles and wins behind the advice.</p>
+	<ul>
+		<li><a href="/obedience/">Obedience</a></li>
+		<li><a href="/agility/">Agility</a></li>
+		<li><a href="/conformation/">Conformation</a></li>
+	</ul>
+</nav>
