@@ -516,3 +516,5 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
   .entry-content .compare-table tbody tr td:last-child { border-bottom: 0; }
   .entry-content .compare-table td::before { content: attr(data-label); display: block; font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: #7e4960; margin-bottom: 2px; }
 }
+.entry-content .post-cta-btn-outline { background: transparent; color: #7e4960; border: 2px solid #7e4960; padding: 10px 22px; }
+@media (hover: hover) { .entry-content .post-cta-btn-outline:hover { background: #f6eef3; color: #7e4960; } }
