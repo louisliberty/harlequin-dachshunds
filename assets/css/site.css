@@ -555,3 +555,6 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .entry-content .tip-box { margin: 22px 0; padding: 18px 22px 4px; background: #f6eef3; border-radius: 12px; }
 .entry-content .tip-box .tip-box-label { font-size: 14px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #7e4960; margin: 0 0 6px; }
 .entry-content .article-body .tip-box p { margin-bottom: 14px; }
+.entry-content .key-takeaways .jump-link { margin: 4px 0 14px; }
+.entry-content .key-takeaways .jump-link a { color: #7e4960; font-weight: 600; }
+.entry-content [id="training-steps"] { scroll-margin-top: 16px; }
