@@ -543,3 +543,15 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
   .entry-content .post-figure-small { max-width: 180px; }
   .entry-content blockquote.pull-quote p { font-size: 21px; }
 }
+
+/* Steps, checklists, reasons and tip boxes in articles */
+.entry-content .article-body ol.steps-list, .entry-content .article-body ol.reasons-list { counter-reset: step; list-style: none; margin: 8px 0 18px; padding: 0; }
+.entry-content .article-body ol.steps-list li, .entry-content .article-body ol.reasons-list li { counter-increment: step; position: relative; padding-left: 46px; margin: 0 0 14px; line-height: 1.6; min-height: 32px; }
+.entry-content .article-body ol.steps-list li::before, .entry-content .article-body ol.reasons-list li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 30px; height: 30px; border-radius: 50%; background: #7e4960; color: #fff; font-size: 15px; font-weight: 600; display: flex; align-items: center; justify-content: center; }
+.entry-content .article-body ol.reasons-list li::before { background: #fff; color: #7e4960; border: 2px solid #7e4960; width: 26px; height: 26px; }
+.entry-content .article-body ul.check-list { list-style: none; margin: 8px 0 18px; padding: 0; }
+.entry-content .article-body ul.check-list li { position: relative; padding-left: 32px; margin: 0 0 10px; line-height: 1.6; }
+.entry-content .article-body ul.check-list li::before { content: ""; position: absolute; left: 4px; top: .35em; width: 7px; height: 13px; border: solid #7e4960; border-width: 0 3px 3px 0; transform: rotate(45deg); }
+.entry-content .tip-box { margin: 22px 0; padding: 18px 22px 4px; background: #f6eef3; border-radius: 12px; }
+.entry-content .tip-box .tip-box-label { font-size: 14px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #7e4960; margin: 0 0 6px; }
+.entry-content .article-body .tip-box p { margin-bottom: 14px; }
