@@ -1,0 +1,7 @@
+{% if page.faq %}<section class="post-faq" aria-labelledby="faq-heading">
+<h2 id="faq-heading">Frequently asked questions</h2>
+{% for item in page.faq %}<details class="faq-item"{% if forloop.first %} open{% endif %}>
+<summary><h3>{{ item.q }}</h3></summary>
+<p>{{ item.a }}</p>
+</details>
+{% endfor %}</section>{% endif %}
