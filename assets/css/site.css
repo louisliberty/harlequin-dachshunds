@@ -469,7 +469,7 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 .entry-content .article-body .reason-num { flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 50%; background: #7e4960; color: #fff; font-family: Inter, system-ui, sans-serif; font-size: 16px; font-weight: 600; }
 .entry-content .article-body p { margin: 0 0 16px; }
 .entry-content .key-takeaways { margin: 28px 0 8px; padding: 20px 24px 8px; background: #faf6f9; border: 1px solid #ece4ee; border-left: 5px solid #7e4960; border-radius: 10px; }
-.entry-content .article-body .key-takeaways h2 { font-family: Inter, system-ui, sans-serif; font-size: 14px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #7e4960; margin: 0 0 10px; }
+.entry-content .article-body .key-takeaways .key-takeaways-label { font-family: Inter, system-ui, sans-serif; font-size: 14px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #7e4960; margin: 0 0 10px; }
 .entry-content .key-takeaways ul { list-style: none; margin: 0; padding: 0; }
 .entry-content .key-takeaways li { position: relative; padding-left: 24px; margin: 0 0 12px; line-height: 1.6; }
 .entry-content .key-takeaways li::before { content: ""; position: absolute; left: 3px; top: .62em; width: 8px; height: 8px; background: #7e4960; transform: rotate(45deg); }
