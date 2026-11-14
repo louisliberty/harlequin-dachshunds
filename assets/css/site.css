@@ -518,3 +518,28 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
 }
 .entry-content .post-cta-btn-outline { background: transparent; color: #7e4960; border: 2px solid #7e4960; padding: 10px 22px; }
 @media (hover: hover) { .entry-content .post-cta-btn-outline:hover { background: #f6eef3; color: #7e4960; } }
+
+/* Story-style articles: floated photos, timeline, pull quote, related links */
+.entry-content .post-figure-float { float: right; width: 240px; margin: 4px 0 16px 28px; }
+.entry-content .post-figure-small { width: 170px; }
+.entry-content .article-body h2 { clear: both; }
+.entry-content .timeline { list-style: none; margin: 28px 0; padding: 4px 0 4px 26px; border-left: 3px solid #e3d3dd; clear: both; }
+.entry-content .timeline li { position: relative; margin: 0 0 16px; line-height: 1.5; }
+.entry-content .timeline li:last-child { margin-bottom: 0; }
+.entry-content .timeline li::before { content: ""; position: absolute; left: -34px; top: 5px; width: 13px; height: 13px; border-radius: 50%; background: #fff; border: 3px solid #7e4960; }
+.entry-content .timeline li:last-child::before { background: #7e4960; }
+.entry-content .timeline-when { display: block; font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #7e4960; }
+.entry-content blockquote.pull-quote { margin: 30px 0; padding: 4px 0 4px 26px; border-left: 4px solid #7e4960; background: none; }
+.entry-content blockquote.pull-quote p { font-family: Lora, Georgia, serif; font-weight: 500; font-style: italic; font-size: 24px; line-height: 1.45; color: #1d1b5e; margin: 0; }
+.entry-content .post-related { margin: 32px 0 8px; padding: 20px 24px; background: #faf6f9; border: 1px solid #ece4ee; border-radius: 12px; }
+.entry-content .post-related .post-related-heading { font-family: Lora, Georgia, serif; font-weight: 500; font-size: 22px; color: #1d1b5e; margin: 0 0 10px; }
+.entry-content .post-related ul { margin: 0; padding: 0; list-style: none; }
+.entry-content .post-related li { margin: 0 0 8px; }
+.entry-content .post-related li:last-child { margin-bottom: 0; }
+.entry-content .post-related a { color: #7e4960; font-weight: 600; }
+.entry-content .post-related a::after { content: " \2192"; }
+@media (max-width: 600px) {
+  .entry-content .post-figure-float { float: none; width: auto; max-width: 300px; margin: 20px auto; }
+  .entry-content .post-figure-small { max-width: 180px; }
+  .entry-content blockquote.pull-quote p { font-size: 21px; }
+}

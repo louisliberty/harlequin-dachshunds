@@ -1,0 +1,6 @@
+{% if page.related %}<aside class="post-related" aria-labelledby="related-heading">
+<p class="post-related-heading" id="related-heading">Keep reading</p>
+<ul>
+{% for r in page.related %}<li><a href="{{ r.url | relative_url }}">{{ r.title }}</a></li>
+{% endfor %}</ul>
+</aside>{% endif %}

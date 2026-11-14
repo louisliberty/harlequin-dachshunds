@@ -5,12 +5,12 @@ layout: default
 	<header class="entry-header">
 		<h1 class="entry-title">{{ page.heading | default: page.title }}</h1>
 
-		{% if page.categories contains "blog" %}<p class="article-byline">By <a href="{{ '/about-us/' | relative_url }}">Karen R. Scheiner</a> &middot; AKC Breeder of Merit &amp; Dachshund judge</p>{% if page.last_modified_at %}<p class="article-updated">Updated <time datetime="{{ page.last_modified_at | date: '%Y-%m-%d' }}">{{ page.last_modified_at | date: '%B %Y' }}</time></p>{% endif %}{% endif %}
+		{% if page.categories contains "blog" %}<p class="article-byline">By <a href="{{ '/about-us/' | relative_url }}">Karen R. Scheiner</a> &middot; AKC Breeder of Merit &amp; Dachshund judge</p>{% if page.last_modified_at or page.written_note %}<p class="article-updated">{% if page.written_note %}{{ page.written_note }}{% if page.last_modified_at %} &middot; {% endif %}{% endif %}{% if page.last_modified_at %}Updated <time datetime="{{ page.last_modified_at | date: '%Y-%m-%d' }}">{{ page.last_modified_at | date: '%B %Y' }}</time>{% endif %}</p>{% endif %}{% endif %}
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 {{ content }}
-{% include post-faq.html %}{% if page.cta %}{% include post-cta.html %}{% endif %}
+{% include post-faq.html %}{% include post-related.html %}{% if page.cta %}{% include post-cta.html %}{% endif %}
 	</div><!-- .entry-content -->
 	{% if page.categories contains "blog" %}
 	<aside class="author-box" aria-label="About the author">
