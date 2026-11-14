@@ -1,26 +1,26 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="footer-columns">
 			<section class="footer-col footer-about">
-				<h2 class="footer-heading">{{ site.title }}</h2>
+				<p class="footer-heading">{{ site.title }}</p>
 				<p>AKC Breeder of Merit and AKC Dachshund judge, raising Miniature Longhaired Dachshunds in South Jersey, near Philadelphia, for more than 20 years.</p>
 				<p class="footer-featured"><a href="https://www.akc.org/expert-advice/news/attorney-gives-up-practice-for-dog-sports/" target="_blank" rel="noopener">Featured on AKC.org &rarr;</a></p>
 				<a class="footer-badge" href="https://www.akc.org/breeder-programs/akc-breeder-of-merit-program/" target="_blank" rel="noopener" title="What it takes to be an AKC Breeder of Merit"><img src="/assets/images/site/breeder-merit-badge.webp" alt="American Kennel Club Breeder of Merit" width="150" height="79" loading="lazy" decoding="async"></a>
 			</section>
 			<nav class="footer-col" aria-label="Footer">
-				<h2 class="footer-heading">Explore</h2>
+				<p class="footer-heading">Explore</p>
 				<ul>
 				{% for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
 				{% endfor %}<li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
 				</ul>
 			</nav>
 			<section class="footer-col footer-blog">
-				<h2 class="footer-heading">From the Blog</h2>
+				<p class="footer-heading">From the Blog</p>
 				<ul>
 				{% for post in site.categories.blog limit: 4 %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 				{% endfor %}</ul>
 			</section>
 			<section class="footer-col">
-				<h2 class="footer-heading">Dachshund Resources</h2>
+				<p class="footer-heading">Dachshund Resources</p>
 				<ul>
 				{% for link in site.data.links %}<li><a href="{{ link.url }}" rel="noopener" target="_blank">{{ link.title }}</a></li>
 				{% endfor %}</ul>
