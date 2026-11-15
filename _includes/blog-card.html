@@ -1,0 +1,12 @@
+<article class="blog-card">
+		<a class="blog-card-link" href="{{ post.url | relative_url }}">
+			{% assign card_img = post.card_image | default: post.image %}
+			{% if card_img %}<div class="blog-card-image">{% if include.eager %}{% include picture.html src=card_img alt=post.card_alt sizes="(max-width: 700px) 92vw, 500px" priority=true %}{% else %}{% include picture.html src=card_img alt=post.card_alt sizes="(max-width: 700px) 92vw, 500px" lazy=true %}{% endif %}</div>{% endif %}
+			<div class="blog-card-body">
+				{% if include.h3 %}<h3 class="blog-card-title">{{ post.title }}</h3>{% else %}<h2 class="blog-card-title">{{ post.title }}</h2>{% endif %}
+				<p class="blog-card-meta">{% if post.topic %}{{ post.topic }}{% endif %}{% if post.read_time %} &middot; {{ post.read_time }} min read{% endif %}{% if post.last_modified_at %} &middot; Updated {{ post.last_modified_at | date: '%B %Y' }}{% endif %}</p>
+				<p class="blog-card-summary">{{ post.summary | default: post.description }}</p>
+				<span class="blog-card-more" aria-hidden="true">Read the article &rarr;</span>
+			</div>
+		</a>
+	</article>
