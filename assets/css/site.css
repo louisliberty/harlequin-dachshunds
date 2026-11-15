@@ -639,3 +639,17 @@ h1.page-title, .page article h1.entry-title, .single article h1.entry-title, h1.
   .entry-content .home-hero-intro { font-size: 17px; }
 }
 .entry-content [id="our-dogs"] { scroll-margin-top: 16px; }
+
+/* Meet Karen block on the home page */
+.entry-content .meet-karen { display: flex; align-items: center; gap: 28px; margin: 6px 0 22px; padding: 22px 26px; background: #faf6f9; border: 1px solid #ece4ee; border-radius: 14px; }
+.entry-content .meet-karen picture { flex: 0 0 180px; }
+.entry-content .meet-karen img { display: block; width: 180px; height: 180px; margin: 0; }
+.entry-content .meet-karen-text p { margin: 0 0 10px; }
+.entry-content .meet-karen .meet-karen-label { font-family: Lora, Georgia, serif; font-weight: 500; font-size: 22px; color: #1d1b5e; margin-bottom: 6px; }
+.entry-content .meet-karen-link { margin: 0 !important; }
+.entry-content .meet-karen-link a { color: #7e4960; font-weight: 600; }
+@media (max-width: 600px) {
+  .entry-content .meet-karen { flex-direction: column; text-align: center; padding: 22px 18px; gap: 14px; }
+  .entry-content .meet-karen picture { flex-basis: auto; }
+  .entry-content .meet-karen img { width: 150px; height: 150px; }
+}

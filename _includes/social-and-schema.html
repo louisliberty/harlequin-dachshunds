@@ -23,7 +23,7 @@
    "address": {"@type": "PostalAddress", "addressRegion": "NJ", "addressCountry": "US"},
    "areaServed": {{ site.location | jsonify }}},
   {"@type": "Person", "@id": {{ site.url | append: "/#karen" | jsonify }}, "name": {{ site.author | jsonify }},
-   "jobTitle": "AKC Breeder of Merit and AKC Dachshund judge",
+   "jobTitle": "AKC Breeder of Merit and AKC Dachshund judge", "image": {{ "/assets/images/site/karen-headshot.png" | absolute_url | jsonify }},
    "description": "Breeder, trainer and exhibitor of miniature longhaired dachshunds for more than 20 years, with dogs titled in AKC conformation, agility (MACH) and obedience (UD).",
    "url": {{ "/about-us/" | absolute_url | jsonify }},
    "knowsAbout": ["Miniature longhaired dachshunds", "Dog obedience training", "Dog agility", "AKC conformation dog shows", "Responsible dog breeding"],
